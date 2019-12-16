@@ -22,7 +22,7 @@ My website can be found [here](https://www.hackthissite.org/missions/realistic/3
 ### Step 2
 - 內文中並沒有什麼可用資訊，查看`網頁原始碼(F12)`。
 - 註解中有可用資訊，駭客複製舊的index.html到oldindex.html中，並重新製作index.html。
-- <!--Note to the webmasterThis website has been hacked, but not totally destroyed. The old website is still up. I simply copied the old index.html file to oldindex.html and remade this one. Sorry about the inconvenience.-->
+```<!--Note to the webmasterThis website has been hacked, but not totally destroyed. The old website is still up. I simply copied the old index.html file to oldindex.html and remade this one. Sorry about the inconvenience.-->```
 ![](https://github.com/cislab-yzu/Project2-3_Hackthissite/blob/master/1051518_Pictures/2.jpg)
 
 ### Step 3
@@ -55,10 +55,10 @@ My website can be found [here](https://www.hackthissite.org/missions/realistic/3
 ### Step 7
 - Google找到管理員發的有關這題的[文章](https://www.hackthissite.org/forums/viewtopic.php?f=52&t=3107&sid=a2377cc2ec14c104db82811e299a9aee)
 >Required:
->>Logical thinking (of course)
->>Moderate HTML knowledge
->>Basic PHP knowledge
->>`Directory Traversal`
+>>- Logical thinking (of course)
+>>- Moderate HTML knowledge
+>>- Basic PHP knowledge
+>>- `Directory Traversal`
 ![](https://github.com/cislab-yzu/Project2-3_Hackthissite/blob/master/1051518_Pictures/14.jpg)
 
 ### Step 8
