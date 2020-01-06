@@ -42,7 +42,18 @@ I really hope you can do this, because if you can't we're all screwed
 
 ### step2
 - 登入先前註冊的帳號後可以看到有轉錢的按鈕,其中可以看到並不是什麼安全的方法，所需的資料全在query裡
-![](https://imgur.com/bCEn7yJ)
-![](https://imgur.com/wcpXvdp)
+![](https://imgur.com/bCEn7yJ.png)
+![](https://imgur.com/wcpXvdp.png)
 
-### step2
+### step3
+- 用javascript修改cookie後轉錢
+
+![](https://imgur.com/74c2Suf.png)
+![](https://imgur.com/byDkYEI.png)
+
+### stpe4
+- 接著用一樣的方法消除紀錄
+![](https://imgur.com/Br70wZV.png)
+
+### 結果
+![](https://imgur.com/43ujvlb.png)
